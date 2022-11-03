@@ -422,7 +422,7 @@ contains
     ! Initialize
     call h5open_f(error)
 
-    fn = dir//fn_pk_avg
+    fn = dir//fn_pk
     write(*,*) "Reading ",trim(fn)
 
     call h5fopen_f(fn, H5F_ACC_RDONLY_F, file_id, error)
@@ -578,7 +578,7 @@ contains
 
 
     ! Local parameters
-    logical, parameter :: write_pvar = .true.
+    logical, parameter :: write_pvar = .false.
 
 
     ! Local variables
@@ -660,7 +660,7 @@ contains
 
 
     ! Local parameters
-    logical, parameter :: write_ngal = .true.
+    logical, parameter :: write_ngal = .false.
 
 
     ! Local variables

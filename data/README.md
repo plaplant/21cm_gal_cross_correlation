@@ -59,7 +59,7 @@ the redshifting of the 21cm line.
 This is a file which contains the raw auto- and cross-spectra measured from our
 suite of semi-numeric reionization simulations. These values have been averaged
 over 30 realizations to produce relatively smooth spectra, which have been
-binned as a function of $k_\perp$ and $k_parallel$. The main datasets are:
+binned as a function of $k_\perp$ and $k_\parallel$. The main datasets are:
 - `data/kpara_vals`: a two-dimensional array of size `(Nkpara, Nz)`, where `Nz`
   is the number of redshifts and `Nkpara` is the number of $k_\parallel$
   values. The values of $k_\parallel$ themselves are in units of $h$Mpc$^{-1}$.
