@@ -121,3 +121,16 @@ values reported in the paper. The main datasets are:
     $(\mathrm{Mpc}/h)^{-6}$
 - `data/zvals_mid`: an array of size `(Nz,)` which contains the central redshift
   value for each of the redshift windows recorded.
+
+### `cum_snr_nmodes_cross.hdf5`
+This is a file containing the resulting S/N calculation in table form, as seen
+in Table 1 of the paper. It can be read in using the Pandas python library.  For
+example:
+```python
+import pandas as pd
+
+df = pd.read_hdf("cum_snr_nmodes_cross.hdf5")
+print(df)
+```
+The output contains the S/N ratio for different combinations of observational
+parameters.
