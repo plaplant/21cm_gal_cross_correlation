@@ -44,7 +44,7 @@ program main
   real(8), parameter :: hls_dsq     = 2200  ! Area of Roman HLS survey
   real(8), parameter :: f_sky       = area_dsq/(4*pi*rad2deg**2)
   real(8), parameter :: hls_sky     = hls_dsq/(4*pi*rad2deg**2)
-  real(8), parameter :: tobs_s      = 1D3*3600  ! Observing time in seconds
+  real(8), parameter :: tobs_s      = 2D2*3600  ! Observing time in seconds
   real(8), parameter :: tsys_K      = 400       ! System temperature in Kelvin
   real(8), parameter :: bw_MHz      = 6         ! Bandwidth of observation
 
