@@ -4,7 +4,7 @@ galaxy observations, and a bit of sample data which can be used to derive some
 of the results of [La Plante et
 al. 2022](https://ui.adsabs.harvard.edu/abs/2022arXiv220509770L/abstract). Most
 of the calculation is done in Fortran, though there are portions in Python, and
-an accompanying [Jupyter notebook](sensitivity_calc.ipynb) that shows some of
+an accompanying [Jupyter notebook](sample_calculation.ipynb) that shows some of
 the results. Note that for space reasons, we only include the raw data for our
 fiducial set of observing properties. Additional simulation results are
 available upon request.
